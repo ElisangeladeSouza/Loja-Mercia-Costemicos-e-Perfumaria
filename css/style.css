@@ -2,10 +2,12 @@
 
 /* Início de configuração menu toggle*/
 #nav-btn {
-	position: fixed;
+	position: absolute;
 	border: #Bababa 1px solid;
 	border-radius: 2px;
 	padding: 5px 10px;
+	margin: 10px;
+	margin-left: 40px;
 	cursor: pointer;
 	background-color: #fff;
 	transition: all 0.4s linear;
@@ -39,5 +41,22 @@
 
 /* Fim menu toggle */
 
+/* Barra decorativa do topo da página */
+div#barra_decorativa {
+	background-color: #FF1493;
+	height: 55px;
+	margin: 0px;
+	margin-top: -8px;
+}
 
+div#barra_decorativa img#logo {
+    position: absolute;
+    margin-left: 550px;
+}
+
+/* Configurações para o rodapé */
+footer#rodape p {
+    color: #777;
+    text-align: center;
+}
 
